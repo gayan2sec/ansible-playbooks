@@ -3,7 +3,7 @@
   hosts: local
   tasks:
     - name: Ping google.com
-      command: ping -c 4 google.com
+      command: ping -c 4 bitbucket.mobitel.lk
       register: ping_output
 
     - name: Display the ping output
