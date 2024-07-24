@@ -1,0 +1,11 @@
+---
+- name: Ping google.com
+  hosts: local
+  tasks:
+    - name: Ping google.com
+      command: ping -c 4 google.com
+      register: ping_output
+
+    - name: Display the ping output
+      debug:
+        var: ping_output.stdout
