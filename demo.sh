@@ -1,4 +1,4 @@
-echo Hello from Bash!
+seecho Hello from Bash!
 echo It is demo script.
 echo List of files in current directory:
 ls -lart
@@ -10,8 +10,8 @@ ps aux
 echo "get environment variable list"
 env
 
-echo "==============="
-env | grep etc
+echo "========grep semaphore env======="
+env | grep semaphore
 
 echo "ping bitbucket"
 ping -c 4 bitbucket.mobitel.lk
