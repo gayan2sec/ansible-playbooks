@@ -13,6 +13,9 @@ env
 echo "========grep semaphore env======="
 env | grep semaphore
 
+echo "========cat semaphore env======="
+cat OPENSSL_CONF
+
 echo "ping bitbucket"
 ping -c 4 bitbucket.mobitel.lk
 
