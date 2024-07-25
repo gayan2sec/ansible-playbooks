@@ -11,7 +11,7 @@ echo "get environment variable list"
 env
 
 echo "==============="
-env | grep tmp
+env | grep etc
 
 echo "ping bitbucket"
 ping -c 4 bitbucket.mobitel.lk
