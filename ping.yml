@@ -1,8 +1,8 @@
 ---
-- name: Ping google.com
+- name: Ping abc.com
   hosts: local
   tasks:
-    - name: Ping google.com
+    - name: Ping cde.com
       command: ping -c 4 bitbucket.mobitel.lk
       register: ping_output
 
